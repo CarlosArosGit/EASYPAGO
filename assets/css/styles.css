@@ -1,0 +1,48 @@
+h1{
+    background: linear-gradient(90deg, #ff2546 7%, #c02c8a 17%, rgb(128, 25, 139) 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btnComo {
+    width: 14%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #ff2546 11%, #c02c8a 66%, rgb(128, 25, 139) 97%);
+    border-color: rgb(128, 25, 139);
+    color: white;
+    font-weight: 600;
+}
+
+label {
+    color: rgb(115, 26, 183);
+    font-weight: 500;
+}
+
+input {
+    border: 0;
+    border-bottom: 2px solid rgb(115, 26, 183);
+}
+
+input:focus {
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-bottom: 2px solid rgb(115, 26, 183);
+    outline: none;
+}
+
+#mensaje {
+    margin-top: 40px;
+    font-size: 38px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #ff2546 28%, #c02c8a 31%, rgb(128, 25, 139) 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
